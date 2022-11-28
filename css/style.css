@@ -1,0 +1,134 @@
+:root {
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --special-text-color:  #4D5AE5;
+    --button-text-color: #FFFFFF;
+    --background-color: #E5E5E5;
+    --portfolio-button-color: #F4F4FD;
+    --bg-button-color: #404BBF;
+    --footer-text-color: #E7E9FC;
+
+}
+
+body {
+    background-color: var(--background-color);
+    
+    color: var(--secondary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 18px;
+    line-height: 1.33;
+
+    text-decoration: none;
+}
+
+.logo-first-part {
+    color: var(--special-text-color);
+}
+
+.logo-second-type {
+    color: var(--primary-text-color);
+}
+
+.logo:hover {
+    color: var(--special-text-color);
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* site nav*/
+
+.site-nav .link {
+color: var(--primary-text-color)
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+}
+
+.site-nav .link:focus, .site-nav .link:hover {
+    color: var(--secondary-text-color)
+}
+
+.site-nav :active {
+    color: var(--special-text-color);
+}
+
+.auth-nav a {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.auth-nav a:hover, .auth-nav a:focus {
+    color: var(--special-text-color);
+}
+
+.button .button:hover {
+    cursor: pointer;
+    font-family: inherit;
+    background-color: var(--special-text-color) ;
+    color: var(--button-text-color);
+}
+
+.button:active {
+    background-color: var(--bg-button-color);
+    color: var(--button-text-color);
+}
+
+.portfolio-button {
+    color: var(--special-text-color);
+    font-family: inherit;
+    background-color:  var(--portfolio-button-color);
+}
+
+.portfolio-button:hover, 
+.portfolio-button:focus {
+     color: var(--button-text-color);
+     background-color: var(--special-text-color);
+}
+
+.hero-title {
+    color: var(--button-text-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+
+    text-align: center;
+}
+
+/*about us*/
+
+.feature-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.secondary-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+    text-align: center;
+}
+
+.text-footer {
+    color: var(--footer-text-color);
+}
