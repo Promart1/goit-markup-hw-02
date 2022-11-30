@@ -17,26 +17,28 @@ body {
     color: var(--secondary-text-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
-    font-weight: 400;
-    font-size: 16px;
+    
 }
 
 .logo {
     font-family: Raleway, sans-serif;
+    font-weight: 800;
     letter-spacing: 0.03em;
     font-size: 18px;
     line-height: 1.33;
 
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .logo-first-part {
     color: var(--special-text-color);
-    text-transform: uppercase;
+    
 }
 
 .logo-second-type {
     color: var(--primary-text-color);
+    
 }
 
 .logo-second-type-footer {
@@ -115,7 +117,7 @@ line-height: 1.5;
 }
 
 .main-section {
-    background-color: var(--section-color);
+    background-color: var(--white-color)
 }
 
 .hero-title {
